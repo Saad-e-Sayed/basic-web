@@ -19,12 +19,13 @@ p {
   color: black;
   float: right;
   clear: right;
-  margin:10px;
+  margin:10px 10px 10px 10px;
 }
 h2{
     size: 125%;
     border: 1px solid black;
     float: right;
+    margin:0px;
 }
 .red{
     background-color: red;
