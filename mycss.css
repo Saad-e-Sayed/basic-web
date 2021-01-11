@@ -52,7 +52,7 @@ h2{
 
 /********** tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  section{
+  #chicken , #beef{
   width:50% ;
   }
   #sps{
