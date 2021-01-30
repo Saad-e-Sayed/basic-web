@@ -20,7 +20,8 @@ section{
    padding:4px;
    min-width:33%;
    min-height:60px;
-   
+   margin-right:auto;
+   margin-left:auto;
 }
 
 h1 {
@@ -28,7 +29,6 @@ h1 {
   size:175%;
   margin:30px;
   text-shadow:1px 1px 2px grey;
-  font-family:cursive, "serif", "sans-serif", "cursive", "fantasy", "monospace";
 }
 
 p {
@@ -68,7 +68,7 @@ h2{
 }
 /************** laptop devices **************/
 @media (min-width: 992px) {
-  div.col-lg-4{
+  .col-lg-4{
       width:33.33%;
   
   }
@@ -76,11 +76,14 @@ h2{
 /********** tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-12{
-      width: 100% ;
+     width: 100% ;
       
   }
   .col-md-6{
      width:50%; 
+  }
+  body{
+     background-color:black; 
   }
 }
 /************ small devices **************/
