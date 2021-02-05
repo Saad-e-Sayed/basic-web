@@ -6,7 +6,29 @@
 body{
    background:linear-gradient(left, beige, bisque);
    background:-webkit-linear-gradient(left, beige, bisque);
+   font-family: 'Londrina Solid', cursive;
 }
+
+header{
+    background: -webkit-linear-gradient(#262A88, #406295);
+    background: -moz-linear-gradient(#262A88, #406295);
+    background: -o-linear-gradient(#262A88, #406295);
+    background: linear-gradient(#262A88, #406295);
+    border-bottom: 2px ridge black;
+}
+#logo-text{
+    float: left;
+    text-decoration: none;
+    color: #00D167;
+    text-shadow: 1px 2px 1px black;
+}
+
+
+
+
+
+
+
 section{
   background-color:grey;
   border:3px ridge black;
@@ -19,13 +41,12 @@ section{
    float:right; 
    padding:4px;
    min-width:33%;
-   min-height:60px;
+   
    margin-right:auto;
    margin-left:auto;
 }
 
-h1 {
-  text-align: center;
+h2 {
   size:175%;
   margin:30px;
   text-shadow:1px 1px 2px grey;
@@ -40,7 +61,7 @@ p {
   text-shadow:1px 0.5px 0px black;
   size:125%;
 }
-h2{
+h3{
     size: 125%;
     border: 2px ridge black;
     position:relative;
@@ -65,31 +86,4 @@ h2{
 .row {
   width: 100%;
   
-}
-/************** laptop devices **************/
-@media (min-width: 992px) {
-  .col-lg-4{
-      width:33.33%;
-  
-  }
-}
-/********** tablet devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-12{
-     width: 100% ;
-      
-  }
-  .col-md-6{
-     width:50%; 
-  }
-  body{
-     background-color:black; 
-  }
-}
-/************ small devices **************/
-@media (max-width:767px) {
-  .col-sm-12{
-      width:100% ;
-  
-  }
 }
